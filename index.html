@@ -8,10 +8,13 @@
 </head>
 <body>
   <div class="container">
-    <h1>Mini Google</h1>
+    <h1>Google</h1>
     <form action="https://www.google.com/search" method="GET" target="_blank">
-      <input type="text" name="q" placeholder="Busca aquí...">
-      <button type="submit">Buscar</button>
+      <input type="text" name="q" placeholder="Buscar en Google" autocomplete="off" />
+      <div class="buttons">
+        <button type="submit">Buscar con Google</button>
+        <button type="button" class="lucky">Voy a tener suerte</button>
+      </div>
     </form>
   </div>
 </body>
